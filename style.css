@@ -15,11 +15,6 @@ h1 {
 
 h2 {
 	font-family: Comic Sans MS, sans-serif;
-	letter-spacing: .3em;
-}
-
-p {
-	font-size: 2em;
 }
 
 a {
@@ -115,6 +110,7 @@ a {
     font-size: 14px;
     cursor: pointer;
 }
+
 
 
 
