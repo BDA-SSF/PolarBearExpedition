@@ -7,7 +7,8 @@ body {
 }
 
 h1 {
-    font-family: Cooper Black, serif;
+    font-family: Cooper, serif;
+	font-weight: black;
     text-align: center;
 	font-size: 30pt;
     margin: 0;
@@ -15,7 +16,8 @@ h1 {
 }
 
 h2 {
-	font-family: Comic Neue Bold, Comic Sans MS, sans-serif;
+	font-family: Comic Neue, Comic Sans MS, sans-serif;
+	font-weight: bold;
 }
 
 a {
@@ -111,6 +113,7 @@ a {
     font-size: 14px;
     cursor: pointer;
 }
+
 
 
 
