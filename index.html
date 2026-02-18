@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polar Bear Expedition</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+
+
+<header id="hero">
+	</br></br>
+	<h1>Polar Bear Expedition</h1>
+	<h2><strong>EXPLORE. DISCOVER. UNLOCK.</strong></h2>
+</br></br>
+</header>
+
+<body>
+	<p>Organizations like <a href="https://polarbearsinternational.org/"><strong>Polar Bears International</strong></a> work globally to research, educate, and advocate for polar bear conservation.</p>
+	
+	</br></br></br></br>
+
+	<img src="images/polar-bear-icon-01.png" alt="polar bears">
+	<div id="progress">0 / 20 pieces unlocked</div>
+
+<div id="puzzle-wrapper">
+
+    <img id="video-still" src="video/video-still.jpg" alt="Video Still">
+    <video id="final-video" class="hidden" controls playsinline></video>
+
+    <div id="puzzle-grid"></div>
+
+</div>
+
+<div id="habitat-info" class="hidden">
+    <h3>You’ve completed the Polar Bear Expedition!</h3>
+
+    <p>
+        You’ve unlocked a live view from the Polar Bear Habitat in Cochrane, Ontario — about eight hours north of Toronto and four hours south of James Bay, home to the southernmost polar bear population.
+    </p>
+
+    <p>
+        Set on more than 24 acres of natural sub-arctic landscape, the bears are free to live as naturally as possible. The Habitat focuses solely on polar bears, prioritizing their welfare and supporting conservation research rather than captive breeding.
+    </p>
+
+    <p>
+        👉 <a href="https://www.polarbearhabitat.ca/watch-live" target="_blank">
+        Continue your expedition by watching them live on the official website.
+        </a>
+    </p>
+</div>
+
+<div id="overlay" class="hidden">
+    <div id="overlay-content">
+        <h2>Congratulations!</h2>
+        <p>You’ve unlocked all 20 pieces.</p>
+        <button id="reveal-video">Reveal Live Feed</button>
+    </div>
+</div>
+
+<button id="reset-btn">Reset Puzzle (Testing)</button>
+
+<script src="script.js"></script>
+</body>
+</html>

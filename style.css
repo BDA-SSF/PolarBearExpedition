@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px 50px 200px 50px;
+    padding: 20px;
+	background-color: aliceblue;
+}
+
+h1 {
+    font-family: Cooper Black, serif;
+    text-align: center;
+	font-size: 6em;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+	font-family: Comic Sans MS, sans-serif;
+	letter-spacing: .3em;
+}
+
+p {
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#puzzle-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 25px auto;
+    aspect-ratio: 5 / 4;
+}
+
+#video-still,
+#final-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 0;
+}
+
+#final-video.hidden {
+    display: none;
+}
+
+#puzzle-grid {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    z-index: 1;
+}
+
+.puzzle-piece {
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.8s ease;
+    opacity: 1;
+}
+
+#overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 1000;
+}
+
+#overlay.hidden {
+    display: none;
+}
+
+#overlay-content {
+    background: #333;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#habitat-info {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+#habitat-info.hidden {
+    display: none;
+}
+
+#habitat-info a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#habitat-info a:hover {
+    text-decoration: underline;
+}
+
+#reset-btn {
+    margin-top: 20px;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+}
