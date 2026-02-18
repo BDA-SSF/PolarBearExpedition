@@ -1,5 +1,5 @@
 const TOTAL_PIECES = 20;
-const LIVE_HLS_URL = "https://live5.brownrice.com:444/polarbear2/polarbear2.stream/main_playlist.m3u8";
+const LIVE_HLS_URL = "https://live5.brownrice.com:444/polarbear3/polarbear3.stream/main_playlist.m3u8";
 
 let progress = JSON.parse(localStorage.getItem('virtualPuzzleProgress')) || {
     unlockedPieces: [],
@@ -117,4 +117,5 @@ window.addEventListener('load', () => {
         }
     }
 });
+
 
