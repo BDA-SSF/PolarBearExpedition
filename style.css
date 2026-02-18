@@ -9,7 +9,7 @@ body {
 h1 {
     font-family: Cooper Black, serif;
     text-align: center;
-	font-size: 6em;
+	font-size: 4em;
     margin: 0;
     padding: 20px;
 }
@@ -116,3 +116,4 @@ a {
     font-size: 14px;
     cursor: pointer;
 }
+
