@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 25px 25px 200px 25px;
+    margin: 25px 25px 100px 25px;
     padding: 20px;
 	background-color: aliceblue;
 }
@@ -117,6 +117,7 @@ a:hover {
     font-size: 14px;
     cursor: pointer;
 }
+
 
 
 
