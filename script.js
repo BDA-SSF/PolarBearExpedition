@@ -59,6 +59,10 @@ function saveProgress(){
 }
 
 function playFinalVideo() {
+    // hide the still image
+    const still = document.getElementById('video-still');
+    still.classList.add('hidden');
+
     if (Hls.isSupported()) {
         const hls = new Hls();
         hls.loadSource(LIVE_HLS_URL);
@@ -113,3 +117,4 @@ window.addEventListener('load', () => {
         }
     }
 });
+
